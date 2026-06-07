@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To The Man Behind The Uniform</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="language-switch">
+    <button onclick="setEnglish()">English</button>
+    <button onclick="setTamil()">தமிழ்</button>
+</div>
+
+    <div class="container">
+        <h1 id="title">To The Man Behind The Uniform</h1>
+
+       <p class="subtitle" id="subtitle">
+    Dedicated to Manimaran P. — a police officer, a son,
+    a husband, and above all, our Appa.
+</p>
+
+        <div class="passcode-box">
+            <h2 id="welcomeText">Welcome, Appa</h2>
+
+           <input type="password" id="passcode" placeholder="Enter Passcode">
+            <button onclick="checkPasscode()">
+                Unlock
+            </button>
+
+            <p id="message"></p>
+           
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
